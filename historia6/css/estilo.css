@@ -1,0 +1,60 @@
+body
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    color: rgb(85, 84, 84);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1
+{
+    color: rgb(60, 115, 199);
+}
+
+form div #nombre
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 25px;
+    width: 300px;
+    background-color: rgb(216, 216, 216);
+    border-width: 0px;
+    border-radius: 6px;
+}
+
+form div #contraseña
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 25px;
+    width: 300px;
+    background-color: rgb(216, 216, 216);
+    border-width: 0px;
+    border-radius: 6px;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+}
+
+.izq {
+    order: 1;
+}
+
+.der {
+    order: 2;
+}
+button
+{
+    height: 50px;
+    width: 300px;
+    background-color: rgb(60, 115, 199);
+    color: azure;
+    border-width: 0px;
+    border-radius: 6px;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sesión 8 Tablas</title>
+    <style>
+        table, td, th
+        {
+            border: 1px solid;
+        }
+    </style>
+</head>
+<body>
+    <h1>Sesión 8 Tablas</h1>
+
+    <table>
+        <caption>Titulo de tabla</caption>
+
+        <thead>
+            <tr>
+                <th scope="row" rowspan="2">Tabla avanzada</th>
+                <th scope="col" colspan="2">Cabecera multiples columnas</th>
+            </tr>
+            <tr>
+                <th scope="col">Primera Col. Cab.</th>
+                <th scope="col">Segunda Col. Cab.</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <th scope="row">Fila 1</th>
+                <td>Fila 1 Columna 1</td>
+                <td>Fila 1 Columna 2</td>
+            </tr>
+            <tr>
+                <th scope="row">Fila 2</th>
+                <td>Fila 2 Columna 1</td>
+                <td>Fila 2 Columna 2</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="3">Pie de tabla</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
